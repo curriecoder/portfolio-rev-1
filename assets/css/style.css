@@ -1,0 +1,33 @@
+body {
+  color: rgb(241, 125, 125);
+  margin: 0 auto;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+  padding-bottom: 50px;
+}
+
+.banner-bg {
+  background-image: url(../images/banner-circuit.jpg);
+  z-index: 2;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+  padding: 0 40px;
+  grid-template-areas: " . content . . content . ";
+}
+
+.content {
+  color: rgb(241, 125, 125);
+  grid-area: content;
+  max-width: 1000px;
+  width: 100%;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+/* .sub-title {
+} */
