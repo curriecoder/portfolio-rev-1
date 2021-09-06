@@ -1,33 +1,60 @@
-body {
-  color: rgb(241, 125, 125);
-  margin: 0 auto;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
-  padding-bottom: 50px;
+* {
+  color: rgb(255, 255, 255);
 }
 
-.banner-bg {
-  background-image: url(../images/banner-circuit.jpg);
-  z-index: 2;
-}
-/* TODO finishing building grid here */
-.grid {
-  display: grid;
-  grid-template-areas: ". content . "
-  ". content .";
-  gap: 10px;
-  padding: 0 40px;
+.name {
+  display: inline-block;
+  text-align: left;
+  color: rgb(167, 167, 167);
+  font-size: 2em;
 }
 
-.content {
-  color: rgb(241, 125, 125);
-  grid-area: content;
-  max-width: 1000px;
-  width: 100%;
+.name::after {
+  content: "Coder'";
+  padding-left: 5px;
+  color: #50e48d
+}
+
+.main-header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/craggy-dune.jpeg);
+  background-size: cover;
+  padding: 20px;
 }
 
 .avatar {
   border-radius: 50%;
+  border: white 3px solid;
+  align-items: left;
 }
 
-/* .sub-title {
-} */
+.sub-title {
+  color: #E19627;
+  padding: 10px;
+  text-align: right;
+}
+
+.nav li{
+  display: inline;
+  font-size: 1.2em;
+}
+
+.nav a {
+  padding: .5em;
+  color: rgb(167, 167, 167)
+}
+
+.nav a:hover {
+  color: #E19627;
+}
+
+.nav ul {
+  text-align: right;
+}
+
+.content {
+  background-color: #108194;
+}
+
+.sub-header {
+  display: block;
+}
