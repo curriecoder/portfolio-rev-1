@@ -103,13 +103,15 @@
 }
 
 .content2 {
+  padding: 10px 0;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .content3 {
+  padding: 10px 0;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .item5 {
@@ -120,9 +122,19 @@
   display: inline;
   justify-content: space-around;
   padding: 0 40px;
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 600px) {
+  .main-header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/craggy-dune.jpeg);
+    background-size: cover;
+  }
+
+  .avatar {
+    height: 100px;
+    width: 100px;
+  }
   .nav li {
     display: flex;
     justify-content: center;
@@ -142,8 +154,48 @@
   .grid-container {
     display: flex;
     flex-direction: column;
+    max-width: 580px;
   } 
 
-  .content2 {
+  .item6 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .item6 li {
+    padding: 2px
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav li {
+    display: flex;
+    justify-content: end;
+  }
+
+  .name {
+    position: absolute;
+    top: 10px
+  }
+
+  .sub-title {
+    position: relative;
+    text-align: left;
+    padding: 0;
+  }
+
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 580px;
+  } 
+
+  .item6 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .item6 li {
+    padding: 2px
   }
 }
