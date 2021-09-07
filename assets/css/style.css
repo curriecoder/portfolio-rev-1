@@ -11,7 +11,7 @@
  }
 
 .name {
-  display: inline-block;
+  display: inline;
   text-align: left;
   color: rgb(167, 167, 167);
   font-size: 2em;
@@ -54,6 +54,7 @@
 }
 
 .nav ul {
+  position: relative;
   text-align: right;
   display: block;
   padding: 2px 24px;
@@ -119,4 +120,27 @@
   display: inline;
   justify-content: space-around;
   padding: 0 40px;
+}
+
+@media screen and (max-width: 600px) {
+  .nav li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-around;
+  }
+
+  .name {
+    position: absolute;
+    top: 10px
+  }
+
+  .sub-title {
+    position: relative;
+    text-align: left;
+    padding: 0;
+  }
+
+  
+
 }
