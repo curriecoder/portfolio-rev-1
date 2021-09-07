@@ -78,17 +78,16 @@
 } */
 
 .grid-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: #108194;
   text-align: center;
   padding: 20px 0;
-  font-size: 30px;
 }
 
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-template-rows: 2fr 3fr 1fr;
-  background-color: #2196F3;
+  background-color: #108194;
   grid-gap: 10px;
   padding: 10px;
   justify-content: center;
@@ -96,6 +95,7 @@
 }
 
 .item1 {
+  font-size: 45px;
 }
 
 .item2 {
