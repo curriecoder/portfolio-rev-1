@@ -99,17 +99,16 @@
 }
 
 .content1 {
-  width: 100%;
 }
 
 .content2 {
   display: flex;
-  width: 50%;
+  justify-content: space-evenly;
 }
 
 .content3 {
   display: flex;
-  width: 50%;
+  justify-content: space-evenly;
 }
 
 .item5 {
