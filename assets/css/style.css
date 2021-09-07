@@ -64,19 +64,15 @@
   margin: 0 auto;
   padding: 40px;
 }
-
  .sub-header {
   grid-area: sub-header-content;
 }
-
 #about-me {
   grid-area: about-me-content;
 }
-
 #work {
   grid-area: work-content;
 }
-
 #contact-me {
   grid-area: contact-me-content;
 } */
@@ -91,20 +87,20 @@
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  grid-auto-rows: minmax(1fr auto);
+  grid-template-rows: 2fr 3fr 1fr;
   background-color: #2196F3;
   grid-gap: 10px;
   padding: 10px;
   justify-content: center;
-  align-items:center;
+  /* align-items:center;  */
 }
 
 .item1 {
   grid-row: span 3;
+  align-content: ;
 }
 
 .item2 {
-  
 }
 
 .item3 {
