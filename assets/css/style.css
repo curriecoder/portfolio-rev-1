@@ -125,9 +125,7 @@
 @media screen and (max-width: 600px) {
   .nav li {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-content: space-around;
   }
 
   .name {
@@ -141,6 +139,11 @@
     padding: 0;
   }
 
-  
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+  } 
 
+  .content2 {
+  }
 }
