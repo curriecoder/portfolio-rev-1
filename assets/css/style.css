@@ -32,9 +32,10 @@
 }
 
 .sub-title {
+  font-size: 20px;
   color: #E19627;
   text-shadow: 1px 2px 2px  #777;;
-  padding: 10px;
+  padding: 5px;
   text-align: right;
 }
 
@@ -54,6 +55,7 @@
 
 .nav ul {
   text-align: right;
+  padding: 2px 5px;
 }
 
 /*.content {
@@ -102,12 +104,14 @@
 }
 
 .item3 {
+  font-size: 45px;
 }
 
 .item4 {
 }
 
 .item5 {
+  font-size: 45px;
 }
 
 .item6 {
