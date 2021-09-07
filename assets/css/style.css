@@ -92,12 +92,10 @@
   grid-gap: 10px;
   padding: 10px;
   justify-content: center;
-  /* align-items:center;  */
+  align-items:center; 
 }
 
 .item1 {
-  grid-row: span 3;
-  align-content: ;
 }
 
 .item2 {
@@ -107,4 +105,10 @@
 }
 
 .item4 {
+}
+
+.item5 {
+}
+
+.item6 {
 }
