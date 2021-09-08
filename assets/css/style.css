@@ -211,8 +211,8 @@
     align-items: center; 
   } 
 
-  .work-row-1 {
-    flex-direction: column;
+  .work-row-1 > img {
+    object-fit: contain;
   }
 
   .work-row-2 {
