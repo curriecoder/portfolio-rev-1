@@ -6,9 +6,8 @@ This project was motivated by a desire to showcase the projects I have worked on
 
 ## Usage
 
-```md
   ![screenshot](/assets/images/portfolio-scrnsht.png)
-  ```
+
 ## Credits
 
 Huge thanks to Kyle Cook at Web Dev Simplified for making great tutorial videos that helped me make this project.
